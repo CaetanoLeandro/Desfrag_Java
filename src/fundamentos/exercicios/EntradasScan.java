@@ -13,6 +13,8 @@ public class EntradasScan {
 
         System.out.println("Digite sua idade");
         int idade = sc.nextInt();
+        sc.nextLine(); //força o pulo pra a proxima linha evitando que a próxima informação fique na linha da
+        // infromação anterior
 
         System.out.println(nome);
         System.out.println(idade);
