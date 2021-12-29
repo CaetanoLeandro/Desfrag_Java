@@ -1,4 +1,4 @@
-package fundamentos.exercicios;
+package fundamentos.secao4;
 
 import javax.swing.*;
 
@@ -12,9 +12,9 @@ public class ConverNumericosPrimitivos {
         float b = (float) 2.33335555; //Explicita (CASTING)
         System.out.println(b);
 
-       // Integer para String
+        // Integer para String
         Integer num1 = 898098;
-        int  num2 = 909099;
+        int num2 = 909099;
         System.out.println(num1.toString().length());
         // OU
         System.out.println(Integer.toString(num2).length());
@@ -26,10 +26,10 @@ public class ConverNumericosPrimitivos {
         double n1 = Double.parseDouble(v1);
         double n2 = Double.parseDouble(v2);
 
-        double soma = n1+n2;
-        System.out.println("A soma é: "+ soma);
+        double soma = n1 + n2;
+        System.out.println("A soma é: " + soma);
 
         //OU
-        System.out.println("A soma é: "+(n1+n2));
+        System.out.println("A soma é: " + (n1 + n2));
     }
 }

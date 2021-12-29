@@ -1,4 +1,4 @@
-package fundamentos.exercicios;
+package fundamentos.secao4;
 
 public class PrimitivoVsObjeto {
 
@@ -31,7 +31,7 @@ public class PrimitivoVsObjeto {
         System.out.println("Boolean " + bo.toString().toUpperCase()); // Transforma um boolean em String e converte tudo em maíuscula
 
         Character c = '&';
-        System.out.println("Char "+ c.charValue());
+        System.out.println("Char " + c.charValue());
 
     }
 }

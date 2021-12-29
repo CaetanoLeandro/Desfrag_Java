@@ -1,4 +1,4 @@
-package fundamentos.exercicios;
+package fundamentos.secao4;
 
 public class AreaDaCircunferencia {
 
@@ -6,7 +6,7 @@ public class AreaDaCircunferencia {
 
         double raio = 3.2;
         final double PI = 3.14159;
-        double area =  PI * raio * raio;
+        double area = PI * raio * raio;
         System.out.println("Área: " + area);
 
     }

@@ -1,4 +1,4 @@
-package fundamentos.exercicios;
+package fundamentos.secao4;
 
 public class ComparacaoDeStrings {
 
