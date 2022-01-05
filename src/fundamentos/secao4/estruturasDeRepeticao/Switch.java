@@ -14,9 +14,9 @@ public class Switch {
         String faixa = sc.next();
 
         switch (faixa.toLowerCase()) {
-            case "preta":
+            case "preta": // Pode-se usar mais de um casa para apenas uma ação
                 System.out.println("Sei o Bassi-Dai");
-                break;
+                break; //break finaliza o laço, quebra o fluxo e sai do laço
             case "marrom":
                 System.out.println("Sei o Tekki Shodan");
                 break;
@@ -35,6 +35,7 @@ public class Switch {
             case "amarela":
                 System.out.println("Sei o Heian Godan");
                 break;
+            default:
         }
         System.out.println("終わり");
         sc.close();
