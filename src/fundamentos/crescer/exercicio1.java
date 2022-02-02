@@ -1,5 +1,6 @@
 package fundamentos.crescer;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class exercicio1 {
@@ -12,15 +13,14 @@ public class exercicio1 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite uma senha de 8 a 32 caracteres, compelo menos uma letra maíúscula, um número e " +
+        JOptionPane.showMessageDialog(null, "Digite uma senha de 8 a 32 caracteres, compelo menos uma letra maíúscula, um número e " +
                 "SEM pontuação");
-        senha = sc.next();
+        senha = (JOptionPane.showInputDialog("Senhe: "));
 
         if (senha.length() >= 6 && senha.length() <= 32 && senha.matches(permitidos)) {
-            System.out.println("Senha valida.");
+            JOptionPane.showMessageDialog(null, "Senha valida.");
         } else {
-            System.out.println("Senha invalida.");
+            JOptionPane.showMessageDialog(null, "Senha invalida.");
         }
-        sc.close();
     }
 }
