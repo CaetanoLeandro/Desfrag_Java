@@ -7,10 +7,10 @@ public class User {
 
     public boolean equals(Object obj) {
         if (obj instanceof User) {
-            User outher = (User) obj;
+            User other = (User) obj;
 
-            boolean nameEquals = outher.name.equals(this.name);
-            boolean emailEquals = outher.email.equals(this.email);
+            boolean nameEquals = other.name.equals(this.name);
+            boolean emailEquals = other.email.equals(this.email);
 
             return nameEquals && emailEquals;
 
