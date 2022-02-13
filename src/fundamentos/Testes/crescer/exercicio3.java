@@ -1,8 +1,8 @@
-public class teste {
+package fundamentos.Testes.crescer;
 
+public class exercicio3 {
 
     public static void main(String[] args) {
-
 
         String frase1 = "Comprei rapadura e salsa com entusiasmo rarissimo";
         String frase2 = "Compute Word Infomation";
@@ -25,5 +25,3 @@ public class teste {
         }
     }
 }
-
-
